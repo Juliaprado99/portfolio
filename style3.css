@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  /*background-color: red;*/
+  font-family: Quicksand, sans-serif;
+}
+.box {
+  width: 100%;
+  background: linear-gradient(#0f1077, #6161a5);
+  color: aliceblue;
+}
+.img {
+  text-align: center;
+  padding: 100px 20px 20px 20px;
+}
+.img-profile {
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid #f178b6;
+}
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+}
+.text h1,
+.text h2,
+.text-grid h2 {
+  font-weight: 300;
+}
+.text h2 {
+  font-size: 1rem;
+}
+.line {
+  display: block;
+  width: 700px;
+  height: 1px;
+  background-color: aliceblue;
+  margin: 20px auto;
+}
+
+.links {
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+.img-link {
+  max-height: 50px;
+  margin: 20px 10px;
+
+}
+.sobre {
+  padding: 20px;
+}
+.sobre h2 {
+  text-align: center;
+}
+.paragrafo-sobre {
+  border-left: 2px solid #6161a5;
+  padding: 20px;
+}
+.grid {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+.text-grid {
+  text-align: center;
+  padding: 20px;
+}
+.text-grid h2,
+.sobre h2,
+.contatos h3 {
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+.line-grid {
+  display: block;
+  background-color: black;
+  width: 200px;
+  height: 1px;
+  margin: 10px auto;
+}
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+}
+.item {
+  width: 350px;
+  max-width: 90%;
+  border: 2px solid #6161a5;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+.item h3 {
+  color: #6161a5;
+  padding: 10px 0;
+}
+.item p {
+  line-height: 1.5rem;
+}
+
+.icon {
+  width: 20px;
+  padding: 0 5px;
+}
+.item a {
+  display: inline-block;
+  background: #6161a5;
+  width: fit-content;
+  margin: 20px 5px 0 5px;
+  padding: 5px 20px;
+  color: aliceblue;
+  margin-left: 30%;
+  border-radius: 4px;
+}
+.item a:hover {
+  background: #f178b6;
+}
+.contatos {
+  padding: 60px 20px 20px 20px;
+  text-align: center;
+}
+.contatos a {
+  color: #000;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  body {
+    max-width: 100vh;
+  }
+  .grid-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .item a {
+    display: block;
+    margin: 20px auto;
+
+  }
+  .icon{
+margin-top: 10px;
+
+  }
+  .btn{
+      text-align: center;
+  }.line{
+      max-width: 80%;
+  }
+}
