@@ -52,7 +52,6 @@ body {
 .img-link {
   max-height: 50px;
   margin: 20px 10px;
-
 }
 .sobre {
   padding: 20px;
@@ -148,15 +147,14 @@ footer {
   .item a {
     display: block;
     margin: 20px auto;
-
   }
-  .icon{
-margin-top: 10px;
-
+  .icon {
+    margin-top: 10px;
   }
-  .btn{
-      text-align: center;
-  }.line{
-      max-width: 80%;
+  .btn {
+    text-align: center;
+  }
+  .line {
+    max-width: 80%;
   }
 }
